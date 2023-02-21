@@ -2,10 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Sign Up Form</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
+  <div class="container">
+    <div class="left-half">
+      <img class="img-element" src="./resources/main-img.jpg" alt="Black sand beaches in Iceland">
+      <p class="text-over">The Odin Project</p>
+    </div>
+    <div class="right-half">
+      <form class="right-side" action="" method="get">
+        <h2>This is not a real online service! This is a sign up form made for learning to design forms. Sign up now to get started anyway!</h2>
+        <br>
+        
+        <div class="user-info">
+          <div class="name">
+            <label for="first_name">First Name*</label>
+            <input type="text" name="first_name" id="first_name" placeholder="John" required>
+          </div>
+          <div class="name">
+            <label for="last_name">Last Name*</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
+          </div>
+        </div>
+        <div class="user-info"> 
+          <div class="contact-info">
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" placeholder="johndoe@example.com" required>
+          </div>
+          <div class="contact-info">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="number" id="phone">
+          </div>
+        </div>
+        <div class="user-info">
+          <div class="credentials">
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password" required>
+          </div>
+        </div>
+        <div class="user-info">
+        </div>
+        <div id="submit">
+          <button type="submit">Create Account</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
